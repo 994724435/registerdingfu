@@ -1,0 +1,30 @@
+https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxc5d3f404fe2f97b2&redirect_uri=http://www.diaoch.cn/register/index.php/Home/Index/test&response_type=code&scope=snsapi_base&state=123#wechat_redirect
+
+
+http://www.diaoch.cn/
+
+
+https://api.weixin.qq.com/sns/oauth2/access_token?appid=wxc5d3f404fe2f97b2&secret=2097ca8ce1ddbe01134577281fc0def8&code=&grant_type=authorization_code
+
+
+https://api.weixin.qq.com/sns/oauth2/access_token?appid=wxc5d3f404fe2f97b2&secret=2097ca8ce1ddbe01134577281fc0def8&code=041r9wAd1CSUUt085CDd1fonAd1r9wAx&grant_type=authorization_code
+
+
+ {
+     "button":[
+     {	
+          "type":"view",
+          "name":"´ò¿¨",
+          "url":"http://www.diaoch.cn/register/index.php/Home/User/clock.html"
+      },
+      {	
+          "type":"view",
+          "name":"Çë¼Ù",
+          "url":"http://www.diaoch.cn/register/index.php/Home/User/enroll.html"
+      },
+      {	
+          "type":"view",
+          "name":"¸öÈË",
+          "url":"http://www.diaoch.cn/register/index.php/Home/User/personCenter.html"
+      }]
+ }

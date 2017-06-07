@@ -1,0 +1,381 @@
+[ 2017-04-14T21:49:54+08:00 ] 127.0.0.1 /register/index.php/Home/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.024127s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009213s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009323s ]
+NOTIC: [8] Undefined index: name D:\WWW\dev\register\Application\Home\Controller\CommonController.class.php 第 8 行.
+
+[ 2017-04-14T21:49:56+08:00 ] 127.0.0.1 /register/index.php/Home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001013s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000898s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000995s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.020196s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.020380s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.169389s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.169564s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.011035s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011124s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.021713s ]
+INFO: [ app_end ] --END-- [ RunTime:0.021801s ]
+
+[ 2017-04-14T21:49:59+08:00 ] 127.0.0.1 /register/index.php/Home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001270s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001750s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002087s ]
+SQL: SHOW COLUMNS FROM `p_menber` [ RunTime:0.0496s ]
+SQL: SELECT * FROM `p_menber` WHERE `name` = '18883287644' AND `pwd` = '123123'  [ RunTime:0.0023s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\dev\register\Application\Home\Controller\LoginController.class.php 第 11 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000118s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000210s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012417s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012530s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000415s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000479s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000905s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000992s ]
+
+[ 2017-04-14T21:50:05+08:00 ] 127.0.0.1 /register/index.php/Home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001354s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000846s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000970s ]
+SQL: SHOW COLUMNS FROM `p_menber` [ RunTime:0.0149s ]
+SQL: SELECT * FROM `p_menber` WHERE `name` = '18883287644' AND `pwd` = '123456'  [ RunTime:0.0015s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\dev\register\Application\Home\Controller\LoginController.class.php 第 11 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000113s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000198s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009647s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009757s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000519s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000615s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000979s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001104s ]
+
+[ 2017-04-14T21:50:40+08:00 ] 127.0.0.1 /register/index.php/Home/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000901s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000933s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001075s ]
+SQL: SHOW COLUMNS FROM `p_menber` [ RunTime:0.0135s ]
+SQL: SELECT * FROM `p_menber` WHERE `name` = '18883287644' AND `pwd` = '123'  [ RunTime:0.0047s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\WWW\dev\register\Application\Home\Controller\LoginController.class.php 第 12 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000172s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000328s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018204s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018318s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000456s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000531s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001342s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001626s ]
+
+[ 2017-04-14T21:50:40+08:00 ] 127.0.0.1 /register/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000996s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001135s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001308s ]
+SQL: SHOW COLUMNS FROM `p_menber` [ RunTime:0.0116s ]
+SQL: SELECT * FROM `p_menber` WHERE `uid` = 1  [ RunTime:0.0031s ]
+SQL: SELECT * FROM `p_menber` WHERE `uid` = 1  [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `p_orderlog` [ RunTime:0.0567s ]
+SQL: SELECT * FROM `p_orderlog` ORDER BY logid DESC LIMIT 10   [ RunTime:0.0151s ]
+SQL: SHOW COLUMNS FROM `p_incomelog` [ RunTime:0.0252s ]
+SQL: SELECT * FROM `p_incomelog` WHERE `addymd` = '2017-04-13' AND `userid` = 1  [ RunTime:0.0025s ]
+SQL: SELECT * FROM `p_incomelog` WHERE `userid` = 1 ORDER BY id DESC  [ RunTime:0.0036s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000219s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000370s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.079159s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.079300s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000572s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000682s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001527s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001643s ]
+
+[ 2017-04-14T21:50:52+08:00 ] 127.0.0.1 /register/index.php/Home/User/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000842s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000904s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001022s ]
+SQL: SHOW COLUMNS FROM `p_menber` [ RunTime:0.0149s ]
+SQL: SELECT * FROM `p_menber` WHERE `uid` = 1  [ RunTime:0.0025s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000162s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000252s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040261s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040556s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000405s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000468s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000743s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000817s ]
+
+[ 2017-04-14T21:51:09+08:00 ] 127.0.0.1 /register/index.php/Home/User/drawCash.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001154s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000883s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001018s ]
+SQL: SHOW COLUMNS FROM `p_menber` [ RunTime:0.0111s ]
+SQL: SELECT * FROM `p_menber` WHERE `uid` = 1  [ RunTime:0.0018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000240s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000422s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034198s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034324s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000412s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000475s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000761s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000828s ]
+
+[ 2017-04-14T21:58:34+08:00 ] 127.0.0.1 /register/index.php/Home/User/drawCash.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000968s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001250s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001399s ]
+SQL: SHOW COLUMNS FROM `p_menber` [ RunTime:0.0127s ]
+SQL: SELECT * FROM `p_menber` WHERE `uid` = 1  [ RunTime:0.0023s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000421s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000727s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018667s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018839s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000508s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000587s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000851s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000933s ]
+
+[ 2017-04-14T21:58:58+08:00 ] 127.0.0.1 /register/index.php/Home/User/drawCash.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000882s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002181s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002361s ]
+SQL: SHOW COLUMNS FROM `p_menber` [ RunTime:0.0165s ]
+SQL: SELECT * FROM `p_menber` WHERE `uid` = 1  [ RunTime:0.0033s ]
+SQL: SELECT * FROM `p_menber` WHERE `uid` = 1 AND `pwd2` = '123456'  [ RunTime:0.0020s ]
+SQL: UPDATE `p_menber` SET `chargebag`='1976' WHERE `uid` = 1 [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `p_incomelog` [ RunTime:0.0160s ]
+NOTIC: [8] Undefined index: name D:\WWW\dev\register\Application\Home\Controller\UserController.class.php 第 98 行.
+SQL: INSERT INTO `p_incomelog` (`type`,`state`,`reson`,`addymd`,`addtime`,`orderid`,`userid`,`income`) VALUES ('3','0','支付宝提现','2017-04-14','2017-04-14 21:58:58',',18883287644,,,,','1','234') [ RunTime:0.0028s ]
+
+[ 2017-04-14T21:58:59+08:00 ] 127.0.0.1 /register/index.php/Home/User/drawCash
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001016s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001004s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001095s ]
+SQL: SHOW COLUMNS FROM `p_menber` [ RunTime:0.0165s ]
+SQL: SELECT * FROM `p_menber` WHERE `uid` = 1  [ RunTime:0.0025s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000372s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000578s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017754s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017913s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000564s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000667s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001100s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001225s ]
+
+[ 2017-04-14T21:59:24+08:00 ] 127.0.0.1 /register/index.php/Home/User/drawCash
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001060s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001851s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002079s ]
+SQL: SHOW COLUMNS FROM `p_menber` [ RunTime:0.0169s ]
+SQL: SELECT * FROM `p_menber` WHERE `uid` = 1  [ RunTime:0.0031s ]
+SQL: SELECT * FROM `p_menber` WHERE `uid` = 1 AND `pwd2` = '123'  [ RunTime:0.0027s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\dev\register\Application\Home\Controller\UserController.class.php 第 75 行.
+
+[ 2017-04-14T21:59:26+08:00 ] 127.0.0.1 /register/index.php/Home/User/drawCash
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001034s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001644s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001944s ]
+SQL: SHOW COLUMNS FROM `p_menber` [ RunTime:0.0206s ]
+SQL: SELECT * FROM `p_menber` WHERE `uid` = 1  [ RunTime:0.0027s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000256s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000393s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018054s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018313s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000734s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000841s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001273s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001392s ]
+
+[ 2017-04-14T22:01:30+08:00 ] 127.0.0.1 /register/index.php/Home/User/drawCash.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001078s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001027s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001160s ]
+SQL: SHOW COLUMNS FROM `p_menber` [ RunTime:0.0122s ]
+SQL: SELECT * FROM `p_menber` WHERE `uid` = 1  [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000247s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000479s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015342s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015462s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000702s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000789s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001285s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001408s ]
+
+[ 2017-04-14T22:01:35+08:00 ] 127.0.0.1 /register/index.php/Home/User/group.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000626s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000786s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000885s ]
+SQL: SHOW COLUMNS FROM `p_menber` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `p_menber` WHERE `uid` = 1  [ RunTime:0.0014s ]
+SQL: SELECT * FROM `p_menber` WHERE `fuid` = 1  [ RunTime:0.0015s ]
+SQL: SELECT * FROM `p_menber` WHERE `fuid` = 4  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000185s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000320s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.073304s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.073451s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000559s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000661s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001621s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001738s ]
+
+[ 2017-04-14T22:02:25+08:00 ] 127.0.0.1 /register/index.php/Home/User/group.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000857s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001159s ]
+SQL: SHOW COLUMNS FROM `p_menber` [ RunTime:0.0139s ]
+SQL: SELECT * FROM `p_menber` WHERE `uid` = 1  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `p_menber` WHERE `fuid` = 1  [ RunTime:0.0015s ]
+SQL: SELECT * FROM `p_menber` WHERE `fuid` = 4  [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000119s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000207s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017788s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017921s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000654s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000756s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001162s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001314s ]
+
+[ 2017-04-14T22:03:07+08:00 ] 127.0.0.1 /register/index.php/Home/User/group.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002134s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001187s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001701s ]
+SQL: SHOW COLUMNS FROM `p_menber` [ RunTime:0.0161s ]
+SQL: SELECT * FROM `p_menber` WHERE `uid` = 1  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `p_menber` WHERE `fuid` = 1  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `p_menber` WHERE `fuid` = 4  [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000203s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000480s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027869s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028066s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000548s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000640s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000926s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001012s ]
+
+[ 2017-04-14T22:19:38+08:00 ] 127.0.0.1 /register/index.php/Home/User/group.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001009s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001391s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001526s ]
+SQL: SHOW COLUMNS FROM `p_menber` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `p_menber` WHERE `uid` = 1  [ RunTime:0.0017s ]
+SQL: SELECT * FROM `p_menber` WHERE `fuid` = 1  [ RunTime:0.0024s ]
+SQL: SELECT * FROM `p_menber` WHERE `fuid` = 4  [ RunTime:0.0025s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000226s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000407s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019680s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019816s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000521s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000586s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000901s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000985s ]
+

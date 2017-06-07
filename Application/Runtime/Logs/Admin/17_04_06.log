@@ -1,0 +1,221 @@
+[ 2017-04-06T21:36:59+08:00 ] 127.0.0.1 /register/index.php/Admin/Index/main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000491s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000696s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000788s ]
+NOTIC: [8] Undefined index: uname D:\WWW\dev\register\Application\Admin\Controller\CommonController.class.php 第 7 行.
+
+[ 2017-04-06T21:37:00+08:00 ] 127.0.0.1 /register/index.php/Admin/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000419s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000470s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000528s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000128s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000229s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017489s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017581s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000295s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000341s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000533s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000582s ]
+
+[ 2017-04-06T21:37:03+08:00 ] 127.0.0.1 /register/index.php/Admin/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000372s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000471s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000525s ]
+SQL: SHOW COLUMNS FROM `p_user` [ RunTime:0.0182s ]
+SQL: SELECT * FROM `p_user` WHERE `name` = 'admin' AND `password` = '123asd'  [ RunTime:0.0019s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000140s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010835s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010931s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000364s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000431s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000718s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000797s ]
+
+[ 2017-04-06T21:37:03+08:00 ] 127.0.0.1 /register/index.php/Admin/Index/main
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000614s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000789s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000985s ]
+SQL: SHOW COLUMNS FROM `p_user` [ RunTime:0.0086s ]
+SQL: SELECT * FROM `p_user` WHERE `name` = 'admin'  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `p_user`  [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] file_get_contents(./Public/conn/header.html): failed to open stream: No such file or directory D:\WWW\dev\register\ThinkPHP\Library\Think\Template.class.php 第 696 行.
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000191s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000287s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.060258s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.060363s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001054s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001163s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001885s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002181s ]
+
+[ 2017-04-06T21:37:06+08:00 ] 127.0.0.1 /register/index.php/Admin/Article/lists
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000630s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000883s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001032s ]
+SQL: SHOW COLUMNS FROM `p_user` [ RunTime:0.0088s ]
+SQL: SELECT * FROM `p_user` WHERE `name` = 'admin'  [ RunTime:0.0022s ]
+SQL: SHOW COLUMNS FROM `p_article` [ RunTime:0.0091s ]
+SQL: SELECT * FROM `p_article`  [ RunTime:0.0028s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000180s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000283s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029311s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029451s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000565s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000653s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000978s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001088s ]
+
+[ 2017-04-06T21:37:33+08:00 ] 127.0.0.1 /register/index.php/Admin/Article/lists
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000487s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000458s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000551s ]
+SQL: SHOW COLUMNS FROM `p_user` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `p_user` WHERE `name` = 'admin'  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `p_article` [ RunTime:0.0073s ]
+SQL: SELECT * FROM `p_article`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000195s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000299s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013117s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013205s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000236s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000281s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000745s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000840s ]
+
+[ 2017-04-06T21:37:36+08:00 ] 127.0.0.1 /register/index.php/Admin/Article/editearticle/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000658s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000539s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000605s ]
+SQL: SHOW COLUMNS FROM `p_user` [ RunTime:0.0089s ]
+SQL: SELECT * FROM `p_user` WHERE `name` = 'admin'  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `p_article` [ RunTime:0.0075s ]
+NOTIC: [8] Undefined index: title D:\WWW\dev\register\Application\Admin\Controller\ArticleController.class.php 第 42 行.
+SQL: SELECT * FROM `p_article` WHERE `aid` = 1  [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000152s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000223s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047223s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047392s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000413s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000485s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001730s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001861s ]
+
+[ 2017-04-06T21:37:42+08:00 ] 127.0.0.1 /register/index.php/Admin/Article/addarticle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000738s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000764s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000872s ]
+SQL: SHOW COLUMNS FROM `p_user` [ RunTime:0.0495s ]
+SQL: SELECT * FROM `p_user` WHERE `name` = 'admin'  [ RunTime:0.0069s ]
+NOTIC: [8] Undefined index: title D:\WWW\dev\register\Application\Admin\Controller\ArticleController.class.php 第 13 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000228s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000319s ]
+NOTIC: [8] Undefined variable: htmlData D:\WWW\dev\register\Application\Runtime\Cache\Admin\1776d8a4c0bf339da147362bb5a3c3d0.php 第 192 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017202s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017305s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000442s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000535s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000758s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000875s ]
+
+[ 2017-04-06T21:37:48+08:00 ] 127.0.0.1 /register/index.php/Admin/Article/addarticle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000368s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000449s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000504s ]
+SQL: SHOW COLUMNS FROM `p_user` [ RunTime:0.0067s ]
+SQL: SELECT * FROM `p_user` WHERE `name` = 'admin'  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `p_article` [ RunTime:0.0053s ]
+SQL: INSERT INTO `p_article` (`type`,`title`,`cont`,`addtime`,`addymd`,`admin`) VALUES ('1','asdfadsf','sadfasdfasdfa34343','2017-04-06 21:37:48','2017-04-06','admin') [ RunTime:0.0026s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000167s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000234s ]
+NOTIC: [8] Undefined variable: htmlData D:\WWW\dev\register\Application\Runtime\Cache\Admin\1776d8a4c0bf339da147362bb5a3c3d0.php 第 192 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011149s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011214s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000289s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000341s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000618s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000690s ]
+
+[ 2017-04-06T21:37:49+08:00 ] 127.0.0.1 /register/index.php/Admin/Article/lists
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000731s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000749s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000850s ]
+SQL: SHOW COLUMNS FROM `p_user` [ RunTime:0.0089s ]
+SQL: SELECT * FROM `p_user` WHERE `name` = 'admin'  [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `p_article` [ RunTime:0.0085s ]
+SQL: SELECT * FROM `p_article`  [ RunTime:0.0021s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000167s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000243s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015988s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016444s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000439s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000675s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000827s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000982s ]
+

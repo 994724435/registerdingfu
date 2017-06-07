@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<title>我的收益</title>
+	<link rel="stylesheet" href="__ROOT__/Public/Home/css/aui.min.css">
+	<link rel="stylesheet" href="__ROOT__/Public/Home/css/index.css">
+
+	<!-- <script type="text/javascript" src="js/aui.js"></script> -->
+	<style type="text/css">
+	</style>
+</head>
+<body>
+	<header class="mui-bar mui-bar-nav">	
+		<h1 class="mui-title">我的收益</h1>
+	</header>
+	<div class="mui-content">
+		<ul class="tab">
+			<li>
+				<ul>
+					<li>充值钱包</li>
+					<li>{$userinfo.chargebag}<span>(元)</span></li>
+				</ul>
+			</li>
+			<li>
+				<ul>
+					<li>收益钱包</li>
+					<li>{$userinfo.incomebag}<span>(元)</span></li>
+				</ul>
+			</li>
+			<li>
+				<ul>
+					<li>昨日收益</li>
+					<li style="color: #04b6d4;">{$yesterincome}</li>
+				</ul>
+			</li>
+
+		</ul>
+		<p class="title">购买记录</p>
+		<div style="position: relative;height: 170px;">
+		<div id="scrollbox">
+			<ul class="maiList" id="scrollpic">
+				<foreach name="orderinfo" item='v'>
+				<li>
+					{$v.orderid}：{$v.addtime}  成功购买<span>{$v.productname}</span>
+				</li>
+				</foreach>
+			</ul>
+			<ul id="scrollpic-copy" class="maiList"></ul>
+			<ul id="scrollpic-copy1" class="maiList"></ul>
+		</div>
+		</div>
+		
+		<p class="title">最新资金变动</p>
+		<table>
+			<foreach name="incomechange" item='v'>
+			<tr>
+				<td class="kind">{$v.reson}</td>
+				<td class="monry"><if condition="$v.state eq 2">-</if>¥ {$v.income}<if condition="$v.state eq 0">(待审核)<elseif condition="$v.state eq 3"/>失败</if></td>
+				<td class="time">{$v.addtime}</td>
+			</tr>
+			</foreach>
+
+		</table>
+	</div>
+	<include file="Common/footer" />
+	<script src="__ROOT__/Public/Home/js/jquery-3.1.1.min.js"></script>
+	<script type="text/javascript">
+	$("nav a").click(function() {
+		   var href=$(this).attr('data-href');
+		   if(href){
+		   	   window.location.href=href;
+		   }
+	});
+	var speed = 50;
+	var direction="top";
+	var tab = document.getElementById("scrollbox");
+	var tab1 = document.getElementById("scrollpic");
+	var tab2 = document.getElementById("scrollpic-copy");
+	var tab3 = document.getElementById("scrollpic-copy1");
+	tab2.innerHTML = tab1.innerHTML;
+	tab3.innerHTML = tab1.innerHTML;
+	function marquee(){
+	    switch(direction){
+	        case "top":
+	            if(tab2.offsetHeight - tab.scrollTop <= 0){
+	                tab.scrollTop -= tab1.offsetHeight;
+	            }
+	            else{
+	                tab.scrollTop++;
+	            }
+	        break;
+	        case "bottom":
+	            if(tab.scrollTop <= 0){
+	                tab.scrollTop += tab2.offsetHeight;
+	            }
+	            else{
+	                tab.scrollTop--;
+	            }
+	        break;
+	    }
+
+	}
+	function changeDirection(dir){
+	   direction = dir;
+	}
+	var timer = setInterval(marquee,speed);
+	  
+	</script>
+</body>
+</html>

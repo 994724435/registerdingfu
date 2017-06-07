@@ -1,0 +1,107 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<title>提现</title>
+	<link rel="stylesheet" href="/register/Public/Home/css/aui.min.css">
+	<link rel="stylesheet" href="/register/Public/Home/css/style.css">
+	<link rel="stylesheet" href="/register/Public/Home/css/mui.picker.css">
+	<link rel="stylesheet" href="/register/Public/Home/css/mui.poppicker.css">
+	<script type="text/javascript" src="/register/Public/Home/js/aui.js"></script>
+	<script type="text/javascript" src="/register/Public/Home/js/jquery-3.1.1.min.js"></script>
+	<script type="text/javascript" src="/register/Public/Home/js/mui.picker.js"></script>
+	<script type="text/javascript" src="/register/Public/Home/js/mui.poppicker.js"></script>
+	<style type="text/css">
+		.tipTitle{font-size: 15px;font-weight: bold;margin-top: 10px;color: #000;padding:0 10px;}
+		.tip{padding:0 10px;font-size: 14px; }
+		.hidden{display: none;}
+	</style>
+</head>
+<body>
+     <header class="mui-bar mui-bar-nav">
+	  <a class="mui-icon mui-icon-left-nav mui-pull-left mui-action-back"></a>
+	  <a class="mui-icon mui-icon-reply mui-pull-right"></a>
+	  <h1 class="mui-title">我要提现</h1>
+	</header>
+	<div class="mui-content">
+		<form class="mui-input-group" action="" method="post" style="margin-top: 20px;"  enctype="multipart/form-data">
+		    <div class="mui-input-row">
+		        <label>二级密码</label>
+		        <input type="password" name="pwd" class="mui-input-password" placeholder="请输入注册时二级密码">
+		    </div>
+		    <div class="mui-input-row">
+		        <label>提现金额</label>
+		        <input type="number" name="num" class="mui-input-clear" placeholder="请输入提现金额">
+		    </div>
+		     <div class="mui-input-row">
+		        <label>提现方式</label>
+		        <input type="text" name="type" class="mui-input-clear" placeholder="请选择提现方式" id="selelcted"  readonly="readonly" data-value="">
+		    </div>
+		    <div class="hidden">
+			    <div class="mui-input-row">
+			        <label>卡号</label>
+			        <input type="text" name="carnum" class="mui-input-clear" placeholder="请输入卡号">
+			    </div>
+			    
+			     <div class="mui-input-row">
+			        <label>姓名</label>
+			        <input type="text" name="carmame" class="mui-input-clear" placeholder="请输入姓名">
+			    </div>
+			     <div class="mui-input-row">
+			        <label>开户行</label>
+			        <input type="text" name="carhang" class="mui-input-clear" placeholder="请输入开户行">
+			    </div>
+			     <div class="mui-input-row">
+			        <label>开户地区</label>
+			        <input type="text" name="caraddr" class="mui-input-clear" placeholder="请输入开户地区">
+			    </div>
+		    </div>
+		
+		     <!--<div class="mui-input-row">-->
+		        <!--<label>账户用户名</label>-->
+		        <!--<input type="text" name="name" class="mui-input-clear" placeholder="请输入账户用户名">-->
+		    <!--</div>-->
+		     <div class="mui-input-row">
+		        <label>账户号</label>
+		        <input type="text" name="account" class="mui-input-clear" placeholder="请输入账户号">
+		    </div>
+			<button class="mui-btn mui-btn-block">确认</button>
+		</form>
+
+
+	</div>
+	<script type="text/javascript">
+	    var userPicker = new mui.PopPicker();
+		userPicker.setData([{
+			value: '0',
+			text: '支付宝'
+		},
+//			{
+//			value: '1',
+//			text: '微信'
+//		},
+			{
+			value: '2',
+			text: '银行卡'
+		}]);
+		$("#selelcted").click(function() {
+			userPicker.show(function(items) {
+				$("#selelcted").val(items[0].text);
+				$("#selelcted").attr('data-value', items[0].value);
+				if(items[0].value==2){
+					$(".hidden").show();
+				}else{
+					$(".hidden").hide();
+				}
+				
+			});
+		});
+	</script>
+	
+
+    
+</body>
+</html>

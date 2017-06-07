@@ -1,0 +1,21 @@
+*{margin:0;padding: 0;font-family: "微软雅黑";}
+li{list-style-type: none;}
+.mui-bar-nav{box-shadow: none;-webkit-box-shadow: none; background: #04cbd9;}
+.mui-title{color: #fff;}
+.list{width: 90%;margin:20px auto 0;}
+.list>li{background: #fff;position: relative;border-radius: 7px;box-shadow: 0px 0px 14px 0px rgba(177, 175, 175, 0.74);
+    margin-bottom: 20px;height: 126px;}
+.list>li ul{display: inline-block;display: inline-block;font-size: 14px;line-height: 21px;position: absolute;left: 31%;bottom: 10px;}
+.list>li span{position: absolute;top: 6px;left: 31%;}
+.liImg{width: 30%;border-top-left-radius: 7px;border-bottom-left-radius:7px;height: 100%;}
+.time{color: #02d8c6;}
+.money{color: #fb436e;}
+.sales{color: #8a8e91;}
+.mui-content{padding-bottom: 56px;}
+.add{position: absolute;right: 3px;bottom: 3px;width: 49px;display: none;}
+.mui-icon img{display: block;width: 100%;}
+.mui-bar-tab .mui-tab-item .mui-icon{width: 27px;}
+.mui-bar.mui-bar-tab{background: #04b6d4;height: 56px;}
+.mui-bar-tab .mui-tab-item .mui-icon~.mui-tab-label{color: #fff;}
+.mui-bar{-webkit-box-shadow: 0 0 1px rgba(0,0,0,0); box-shadow: 0 0 1px rgba(0,0,0,0);}
+.mui-bar-tab .mui-tab-item.mui-active{background: #10c2e0;}

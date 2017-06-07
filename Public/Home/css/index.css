@@ -1,0 +1,27 @@
+*{margin:0;padding: 0;font-family: "微软雅黑";}
+li{list-style-type: none;}
+.mui-bar-nav{box-shadow: none;-webkit-box-shadow: none; background: #04cbd9;}
+.mui-title{color: #fff;}
+.tab{padding: 15px 0;background: #fff;height: 80px}
+.tab>li{width: 33.3%;float: left;text-align: center;}
+.tab>li ul{line-height: 25px;}
+.tab>li ul>li:last-child{font-size: 17px;color: #ff0125;}
+.tab>li ul>li:last-child span{font-size: 14px;}
+.maiList li{text-indent: 10px;color: #7a7a7a;font-size: 12px;background: #fff;padding: 8px 5px;border-bottom: 1px solid #eee;}
+.maiList li span{color: #06bfec;}
+.title{color: #a5a4a4;height: 40px;line-height: 40px;text-indent: 10px;font-size: 16px;margin:0;}
+table,tabody,tr{width: 100%;}
+tr:nth-child(odd){height: 40px;background: #fff;}
+tr:nth-child(even){height: 40px;background: #fafafa;}
+tr td{text-align: center;}
+.kind{font-size: 15px;color: #0ba7f8;}
+.monry{color: #ff0125;}
+.time{color: #b3b5b5;font-size: 13px;}
+.mui-icon img{display: block;width: 100%;}
+.mui-bar-tab .mui-tab-item .mui-icon{width: 27px;}
+.mui-bar.mui-bar-tab{background: #04b6d4;height: 56px;}
+.mui-bar-tab .mui-tab-item .mui-icon~.mui-tab-label{color: #fff;}
+.mui-bar{-webkit-box-shadow: 0 0 1px rgba(0,0,0,0); box-shadow: 0 0 1px rgba(0,0,0,0);}
+.mui-bar-tab .mui-tab-item.mui-active{background: #10c2e0;}
+#scrollbox{height: 170px;overflow: hidden;position: absolute;width:100%;left:0;}
+.mui-content{padding-bottom: 56px;}

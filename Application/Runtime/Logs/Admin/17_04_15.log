@@ -1,0 +1,259 @@
+[ 2017-04-15T15:31:06+08:00 ] 127.0.0.1 /register/index.php/Admin/User/getusernums
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.023627s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.020343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.020484s ]
+ERR: 参数错误或者未定义:userid
+
+[ 2017-04-15T15:31:27+08:00 ] 127.0.0.1 /register/index.php/Admin/User/getusernums
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000819s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001097s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001209s ]
+SQL: SHOW COLUMNS FROM `p_incomelog` [ RunTime:0.0279s ]
+SQL: SELECT * FROM `p_incomelog` WHERE `type` = 1 AND `userid` = 1 AND `reson` = '每日利息'  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `p_incomelog` WHERE `type` = 1 AND `userid` = 1 AND `reson` = '一级下线受益'  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `p_incomelog` WHERE `type` = 1 AND `userid` = 1 AND `reson` = '二级下线受益'  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: logs D:\WWW\dev\register\Application\Admin\Controller\UserController.class.php 第 132 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.020604s ]
+INFO: [ app_end ] --END-- [ RunTime:0.020711s ]
+
+[ 2017-04-15T15:31:42+08:00 ] 127.0.0.1 /register/index.php/Admin/User/getusernums
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000960s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001157s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001294s ]
+SQL: SHOW COLUMNS FROM `p_incomelog` [ RunTime:0.0123s ]
+SQL: SELECT * FROM `p_incomelog` WHERE `type` = 1 AND `userid` = 1 AND `reson` = '每日利息'  [ RunTime:0.0014s ]
+SQL: SELECT * FROM `p_incomelog` WHERE `type` = 1 AND `userid` = 1 AND `reson` = '一级下线受益'  [ RunTime:0.0012s ]
+SQL: SELECT * FROM `p_incomelog` WHERE `type` = 1 AND `userid` = 1 AND `reson` = '二级下线受益'  [ RunTime:0.0012s ]
+
+[ 2017-04-15T15:31:52+08:00 ] 127.0.0.1 /register/index.php/Admin/User/getusernums
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000692s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000743s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000818s ]
+SQL: SHOW COLUMNS FROM `p_incomelog` [ RunTime:0.0111s ]
+SQL: SELECT * FROM `p_incomelog` WHERE `type` = 1 AND `userid` = 1 AND `reson` = '每日利息'  [ RunTime:0.0014s ]
+SQL: SELECT * FROM `p_incomelog` WHERE `type` = 1 AND `userid` = 1 AND `reson` = '一级下线受益'  [ RunTime:0.0017s ]
+SQL: SELECT * FROM `p_incomelog` WHERE `type` = 1 AND `userid` = 1 AND `reson` = '二级下线受益'  [ RunTime:0.0013s ]
+
+[ 2017-04-15T15:31:58+08:00 ] 127.0.0.1 /register/index.php/Admin/User/getusernums
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000775s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000801s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000888s ]
+SQL: SHOW COLUMNS FROM `p_incomelog` [ RunTime:0.0101s ]
+SQL: SELECT * FROM `p_incomelog` WHERE `type` = 1 AND `userid` = 1 AND `reson` = '每日利息'  [ RunTime:0.0016s ]
+SQL: SELECT * FROM `p_incomelog` WHERE `type` = 1 AND `userid` = 1 AND `reson` = '一级下线受益'  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `p_incomelog` WHERE `type` = 1 AND `userid` = 1 AND `reson` = '二级下线受益'  [ RunTime:0.0015s ]
+
+[ 2017-04-15T15:32:04+08:00 ] 127.0.0.1 /register/index.php/Admin/User/getusernums
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000686s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000929s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001026s ]
+SQL: SHOW COLUMNS FROM `p_incomelog` [ RunTime:0.0114s ]
+SQL: SELECT * FROM `p_incomelog` WHERE `type` = 1 AND `userid` = 1 AND `reson` = '每日利息'  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `p_incomelog` WHERE `type` = 1 AND `userid` = 1 AND `reson` = '一级下线受益'  [ RunTime:0.0014s ]
+SQL: SELECT * FROM `p_incomelog` WHERE `type` = 1 AND `userid` = 1 AND `reson` = '二级下线受益'  [ RunTime:0.0013s ]
+
+[ 2017-04-15T15:34:06+08:00 ] 127.0.0.1 /register/index.php/Admin/User/getusernums
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000808s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001161s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001325s ]
+SQL: SHOW COLUMNS FROM `p_incomelog` [ RunTime:0.0131s ]
+SQL: SELECT * FROM `p_incomelog` WHERE `type` = 1 AND `userid` = 1 AND `reson` = '每日利息'  [ RunTime:0.0016s ]
+SQL: SELECT * FROM `p_incomelog` WHERE `type` = 1 AND `userid` = 1 AND `reson` = '一级下线受益'  [ RunTime:0.0019s ]
+SQL: SELECT * FROM `p_incomelog` WHERE `type` = 1 AND `userid` = 1 AND `reson` = '二级下线受益'  [ RunTime:0.0013s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001206s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001296s ]
+
+[ 2017-04-15T15:34:08+08:00 ] 127.0.0.1 /register/index.php/Admin/User/getusernums
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000576s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000800s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000886s ]
+SQL: SHOW COLUMNS FROM `p_incomelog` [ RunTime:0.0104s ]
+SQL: SELECT * FROM `p_incomelog` WHERE `type` = 1 AND `userid` = 1 AND `reson` = '每日利息'  [ RunTime:0.0029s ]
+SQL: SELECT * FROM `p_incomelog` WHERE `type` = 1 AND `userid` = 1 AND `reson` = '一级下线受益'  [ RunTime:0.0029s ]
+SQL: SELECT * FROM `p_incomelog` WHERE `type` = 1 AND `userid` = 1 AND `reson` = '二级下线受益'  [ RunTime:0.0018s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001027s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001118s ]
+
+[ 2017-04-15T15:34:32+08:00 ] 127.0.0.1 /register/index.php/Admin/User/getusernums
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000846s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000910s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001024s ]
+SQL: SHOW COLUMNS FROM `p_incomelog` [ RunTime:0.0115s ]
+SQL: SELECT * FROM `p_incomelog` WHERE `type` = 1 AND `userid` = 1 AND `reson` = '每日利息'  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `p_incomelog` WHERE `type` = 1 AND `userid` = 1 AND `reson` = '一级下线受益'  [ RunTime:0.0015s ]
+SQL: SELECT * FROM `p_incomelog` WHERE `type` = 1 AND `userid` = 1 AND `reson` = '二级下线受益'  [ RunTime:0.0019s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001475s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001590s ]
+
+[ 2017-04-15T15:34:50+08:00 ] 127.0.0.1 /register/index.php/Admin/User/getusernums
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000676s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000759s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000837s ]
+SQL: SHOW COLUMNS FROM `p_incomelog` [ RunTime:0.0109s ]
+SQL: SELECT * FROM `p_incomelog` WHERE `type` = 1 AND `userid` = 1 AND `reson` = '每日利息'  [ RunTime:0.0019s ]
+SQL: SELECT * FROM `p_incomelog` WHERE `type` = 1 AND `userid` = 1 AND `reson` = '一级下线受益'  [ RunTime:0.0015s ]
+SQL: SELECT * FROM `p_incomelog` WHERE `type` = 1 AND `userid` = 1 AND `reson` = '二级下线受益'  [ RunTime:0.0017s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001158s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001249s ]
+
+[ 2017-04-15T15:34:50+08:00 ] 127.0.0.1 /register/index.php/Admin/User/getusernums
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000658s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000948s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001046s ]
+SQL: SHOW COLUMNS FROM `p_incomelog` [ RunTime:0.0103s ]
+SQL: SELECT * FROM `p_incomelog` WHERE `type` = 1 AND `userid` = 1 AND `reson` = '每日利息'  [ RunTime:0.0016s ]
+SQL: SELECT * FROM `p_incomelog` WHERE `type` = 1 AND `userid` = 1 AND `reson` = '一级下线受益'  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `p_incomelog` WHERE `type` = 1 AND `userid` = 1 AND `reson` = '二级下线受益'  [ RunTime:0.0012s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000979s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001063s ]
+
+[ 2017-04-15T15:35:04+08:00 ] 127.0.0.1 /register/index.php/Admin/User/getusernums
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000605s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000971s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001083s ]
+SQL: SHOW COLUMNS FROM `p_incomelog` [ RunTime:0.0143s ]
+SQL: SELECT * FROM `p_incomelog` WHERE `type` = 1 AND `userid` = 1 AND `reson` = '每日利息'  [ RunTime:0.0023s ]
+SQL: SELECT * FROM `p_incomelog` WHERE `type` = 1 AND `userid` = 1 AND `reson` = '一级下线受益'  [ RunTime:0.0018s ]
+SQL: SELECT * FROM `p_incomelog` WHERE `type` = 1 AND `userid` = 1 AND `reson` = '二级下线受益'  [ RunTime:0.0022s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001233s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001356s ]
+
+[ 2017-04-15T15:35:09+08:00 ] 127.0.0.1 /register/index.php/Admin/User/getusernums
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000639s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001170s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001310s ]
+SQL: SHOW COLUMNS FROM `p_incomelog` [ RunTime:0.0117s ]
+SQL: SELECT * FROM `p_incomelog` WHERE `type` = 1 AND `userid` = 1 AND `reson` = '每日利息'  [ RunTime:0.0012s ]
+SQL: SELECT * FROM `p_incomelog` WHERE `type` = 1 AND `userid` = 1 AND `reson` = '一级下线受益'  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `p_incomelog` WHERE `type` = 1 AND `userid` = 1 AND `reson` = '二级下线受益'  [ RunTime:0.0012s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001178s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001270s ]
+
+[ 2017-04-15T15:38:53+08:00 ] 127.0.0.1 /register/index.php/Admin/User/crontab
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000841s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001141s ]
+SQL: SHOW COLUMNS FROM `p_incomelog` [ RunTime:0.0101s ]
+SQL: SELECT * FROM `p_incomelog` WHERE `addymd` = '2017-04-15' AND `type` = 1 AND `reson` = '每日利息'  [ RunTime:0.0009s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\dev\register\Application\Admin\Controller\UserController.class.php 第 32 行.
+SQL: SHOW COLUMNS FROM `p_menber` [ RunTime:0.0108s ]
+SQL: SELECT * FROM `p_menber`  [ RunTime:0.0014s ]
+SQL: SELECT * FROM `p_incomelog` WHERE `type` = 1 AND `userid` = 1 AND `reson` = '每日利息'  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `p_incomelog` WHERE `type` = 1 AND `userid` = 1 AND `reson` = '一级下线受益'  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `p_incomelog` WHERE `type` = 1 AND `userid` = 1 AND `reson` = '二级下线受益'  [ RunTime:0.0012s ]
+SQL: INSERT INTO `p_incomelog` (`state`,`reson`,`type`,`addymd`,`addtime`,`orderid`,`userid`,`income`) VALUES ('1','每日利息','1','2017-04-15','2017-04-15 15:38:53','0','1','90') [ RunTime:0.0012s ]
+SQL: UPDATE `p_menber` SET `incomebag`='194.4' WHERE `uid` = 1 [ RunTime:0.0012s ]
+SQL: SELECT * FROM `p_menber` WHERE `fuid` = 1  [ RunTime:0.0013s ]
+SQL: INSERT INTO `p_incomelog` (`state`,`reson`,`type`,`addymd`,`addtime`,`orderid`,`userid`,`income`) VALUES ('1','一级下线受益','1','2017-04-15','2017-04-15 15:38:53','0','1','8') [ RunTime:0.0010s ]
+SQL: SELECT * FROM `p_menber` WHERE `uid` = 1  [ RunTime:0.0011s ]
+SQL: UPDATE `p_menber` SET `incomebag`='202.4' WHERE `uid` = 1 [ RunTime:0.0010s ]
+SQL: SELECT * FROM `p_menber` WHERE `fuid` = 4  [ RunTime:0.0011s ]
+SQL: INSERT INTO `p_incomelog` (`state`,`reson`,`type`,`addymd`,`addtime`,`orderid`,`userid`,`income`) VALUES ('1','二级下线受益','1','2017-04-15','2017-04-15 15:38:53','0','1','6.4') [ RunTime:0.0009s ]
+SQL: SELECT * FROM `p_menber` WHERE `uid` = 1  [ RunTime:0.0011s ]
+SQL: UPDATE `p_menber` SET `incomebag`='208.8' WHERE `uid` = 1 [ RunTime:0.0011s ]
+SQL: SELECT * FROM `p_incomelog` WHERE `type` = 1 AND `userid` = 2 AND `reson` = '每日利息'  [ RunTime:0.0012s ]
+SQL: SELECT * FROM `p_incomelog` WHERE `type` = 1 AND `userid` = 2 AND `reson` = '一级下线受益'  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `p_incomelog` WHERE `type` = 1 AND `userid` = 2 AND `reson` = '二级下线受益'  [ RunTime:0.0010s ]
+SQL: INSERT INTO `p_incomelog` (`state`,`reson`,`type`,`addymd`,`addtime`,`orderid`,`userid`,`income`) VALUES ('1','每日利息','1','2017-04-15','2017-04-15 15:38:53','0','2','36') [ RunTime:0.0011s ]
+SQL: UPDATE `p_menber` SET `incomebag`='72' WHERE `uid` = 2 [ RunTime:0.0012s ]
+SQL: SELECT * FROM `p_menber` WHERE `fuid` = 2  [ RunTime:0.0019s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\dev\register\Application\Admin\Controller\UserController.class.php 第 62 行.
+SQL: SELECT * FROM `p_incomelog` WHERE `type` = 1 AND `userid` = 3 AND `reson` = '每日利息'  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `p_incomelog` WHERE `type` = 1 AND `userid` = 3 AND `reson` = '一级下线受益'  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `p_incomelog` WHERE `type` = 1 AND `userid` = 3 AND `reson` = '二级下线受益'  [ RunTime:0.0010s ]
+SQL: INSERT INTO `p_incomelog` (`state`,`reson`,`type`,`addymd`,`addtime`,`orderid`,`userid`,`income`) VALUES ('1','每日利息','1','2017-04-15','2017-04-15 15:38:53','0','3','15') [ RunTime:0.0009s ]
+SQL: UPDATE `p_menber` SET `incomebag`='30' WHERE `uid` = 3 [ RunTime:0.0015s ]
+SQL: SELECT * FROM `p_menber` WHERE `fuid` = 3  [ RunTime:0.0013s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\dev\register\Application\Admin\Controller\UserController.class.php 第 62 行.
+SQL: SELECT * FROM `p_incomelog` WHERE `type` = 1 AND `userid` = 4 AND `reson` = '每日利息'  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `p_incomelog` WHERE `type` = 1 AND `userid` = 4 AND `reson` = '一级下线受益'  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `p_incomelog` WHERE `type` = 1 AND `userid` = 4 AND `reson` = '二级下线受益'  [ RunTime:0.0009s ]
+SQL: INSERT INTO `p_incomelog` (`state`,`reson`,`type`,`addymd`,`addtime`,`orderid`,`userid`,`income`) VALUES ('1','每日利息','1','2017-04-15','2017-04-15 15:38:53','0','4','6.4') [ RunTime:0.0009s ]
+SQL: UPDATE `p_menber` SET `incomebag`='18.4' WHERE `uid` = 4 [ RunTime:0.0009s ]
+SQL: SELECT * FROM `p_menber` WHERE `fuid` = 4  [ RunTime:0.0012s ]
+SQL: INSERT INTO `p_incomelog` (`state`,`reson`,`type`,`addymd`,`addtime`,`orderid`,`userid`,`income`) VALUES ('1','一级下线受益','1','2017-04-15','2017-04-15 15:38:53','0','4','5.6') [ RunTime:0.0008s ]
+SQL: SELECT * FROM `p_menber` WHERE `uid` = 4  [ RunTime:0.0011s ]
+SQL: UPDATE `p_menber` SET `incomebag`='24' WHERE `uid` = 4 [ RunTime:0.0010s ]
+SQL: SELECT * FROM `p_menber` WHERE `fuid` = 5  [ RunTime:0.0012s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\dev\register\Application\Admin\Controller\UserController.class.php 第 87 行.
+SQL: SELECT * FROM `p_incomelog` WHERE `type` = 1 AND `userid` = 5 AND `reson` = '每日利息'  [ RunTime:0.0009s ]
+SQL: SELECT * FROM `p_incomelog` WHERE `type` = 1 AND `userid` = 5 AND `reson` = '一级下线受益'  [ RunTime:0.0012s ]
+SQL: SELECT * FROM `p_incomelog` WHERE `type` = 1 AND `userid` = 5 AND `reson` = '二级下线受益'  [ RunTime:0.0013s ]
+SQL: INSERT INTO `p_incomelog` (`state`,`reson`,`type`,`addymd`,`addtime`,`orderid`,`userid`,`income`) VALUES ('1','每日利息','1','2017-04-15','2017-04-15 15:38:53','0','5','6.4') [ RunTime:0.0008s ]
+SQL: UPDATE `p_menber` SET `incomebag`='12.8' WHERE `uid` = 5 [ RunTime:0.0017s ]
+SQL: SELECT * FROM `p_menber` WHERE `fuid` = 5  [ RunTime:0.0012s ]
+NOTIC: [8] Undefined offset: 0 D:\WWW\dev\register\Application\Admin\Controller\UserController.class.php 第 62 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001295s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001392s ]
+
+[ 2017-04-15T15:44:50+08:00 ] 127.0.0.1 /register/index.php/Admin/User/crontab
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000927s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000832s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000922s ]
+SQL: SHOW COLUMNS FROM `p_incomelog` [ RunTime:0.0122s ]
+SQL: SELECT * FROM `p_incomelog` WHERE `addymd` = '2017-04-15' AND `type` = 1 AND `reson` = '每日利息'  [ RunTime:0.0016s ]
+
+[ 2017-04-15T15:44:52+08:00 ] 127.0.0.1 /register/index.php/Admin/User/crontab
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000884s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001110s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001221s ]
+SQL: SHOW COLUMNS FROM `p_incomelog` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `p_incomelog` WHERE `addymd` = '2017-04-15' AND `type` = 1 AND `reson` = '每日利息'  [ RunTime:0.0011s ]
+
